@@ -1,0 +1,103 @@
+
+.navbar-brand /* Nav bar styling*/
+{
+  font-size:2em;
+  margin-left:14%;
+
+  float: left;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  text-align: center;
+  width: 200px;
+
+}
+.nav-link /* Nav bar link to other page styling*/
+{
+    font-size:1.2em;
+    color: #999;
+}
+body {
+ background-image: url("../images/b2.png");
+
+}
+.right-side{
+    margin-right:12%;
+}
+.my-content{
+ min-height: calc(100vh - 70px);
+  margin-top:20px;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+.my-content h3 /* Container styling*/
+{
+  padding: 20px;
+  color: #4aaaa5;
+  
+  font-size: 27px;
+}
+hr /* Line styling within container*/
+{
+  background-color: #999;
+  border: 0 none;
+  color:#999;
+  height: 1px;
+}
+.btn.btn-primary /* Overriding button color*/
+{
+    background-color: #4aaaa5;
+}
+.btn /*Overriding button margin*/
+{
+    margin-bottom: 10px;
+}
+#side-image /* Image styling*/
+{
+  width: 100%;
+}
+.content-holder /* Portfolio content holder styling*/
+{
+
+    padding-bottom:20px;
+}
+.grid /* Image grid*/
+{
+    padding-bottom:20px;
+}
+.pot-image{
+width:1
+
+}
+.grid h3 /* Text on image grid*/
+ {
+    position: absolute;
+    bottom:35px;
+    width: 87%;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-left: 2px;
+    font-weight: 300;
+    line-height: 10px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+.col-6 /* Width of column*/
+{
+max-width: 23%;
+}
+#footer /* Footer styling*/
+ {
+ 
+padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
